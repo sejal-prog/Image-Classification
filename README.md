@@ -100,7 +100,9 @@ This was my first time developing a model entirely on my own, as I had previousl
 
 1. Input Channel Mismatch: The ResNet model is designed to work with RGB channels, but I had already converted my images to grayscale, resulting in errors. I eventually adjusted my approach by ensuring that the CNN could accept a single channel as input, which resolved the issue.
 
-2. Models seems to overfit. Possible solutions would be - Early stopping, use regularization techniques. 
+2. Models seems to overfit. Possible solutions would be - Early stopping, use regularization techniques.
+
+
 For Larger Datasets:
 
 Leveraging Pretrained Models: To handle larger datasets, one effective strategy is to use pretrained models. This allows the model to build upon features learned from a broader, more generalized dataset.
